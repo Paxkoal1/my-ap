@@ -1,12 +1,15 @@
-
-import './App.css';
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      Hello World!
-    </div>
-  );
+
+  let appStyle = "App"
+    return (
+        <>
+            <div className={appStyle}>
+                <h1 style={{color: 'blue'}}>Hello World</h1>
+            </div>
+        </>
+    );
 }
 
 export default App;
